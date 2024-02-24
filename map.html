@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <script src="gps.js"></script>
+    <!-- <script src="gps.js"></script> -->
+    <link rel="stylesheet" src="mapStyle.css"></link>
     <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
     <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
@@ -66,7 +67,13 @@
                     </ion-segment-button>
                 </ion-segment>
 
-                <ion-p id="testMebb"></ion-p>
+                <!-- <ion-p id="testMebb"></ion-p> -->
+
+                <ion-img src="assets/trailGuideMap.PNG" style="width:200%;height:auto" usemap="#isit"></ion-img>
+
+                <ion-map name="isit">
+                  <ion-area shape="circle" coords="200,300,40" onclick="console.log('hello')"></ion-area>
+                </ion-map>
                          
         </ion-content>
 

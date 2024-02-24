@@ -1,6 +1,6 @@
 const successCallback = (position) => {
     console.log(position);
-
+    console.log("hiptastic " + GeolocationCoordinates.latitude)
 }
 
 

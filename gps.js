@@ -1,9 +1,27 @@
 const successCallback = (position) => {
     console.log(position);
-    console.log("hiptastic " + GeolocationCoordinates.latitude)
+
+    if(position.coords.latitude > 57.118700){
+        console.log("pee")
+    } else if (position.coords.latitude < 57.118800){
+        console.log("poo")
+    }
 }
 
+const errorCallback = (error) =>{
+    console.log(error)
+}
 
-navigator.geolocation.getCurrentPosition(successCallback);
+const options = {
+    timeout: 1000,
+    enableHighAccuracy: true,
+}
 
-const whereYouAtGirl = navigator.geolocation.watchPosition(successCallback)
+// navigator.geolocation.getCurrentPosition(successCallback);
+
+const whereYouAtGirl = navigator.geolocation.watchPosition(successCallback, errorCallback, options);
+
+//async.wait(10000);
+
+//navigator.geolocation.clearWatch(whereYouAtGirl);
+

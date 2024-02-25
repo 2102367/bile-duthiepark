@@ -16,7 +16,12 @@
                 <!-- <map name="mapInnit">
                     <area shape="circle" coords="569, 76, 100" href="index.html">
                 </map> -->
-                <img src="assets/duthie-froge-03.png" class="MarkerClass" id="Marker1" onClick="markerChecked(1)">
+                <!-- <img src="assets/duthie-froge-03.png" class="MarkerClass" id="Marker1" onClick="markerChecked(1)"> -->
+                <script>
+                    for (let i = 1; i <= 25; i++) {
+                      document.write(`<img src="assets/duthie-froge-03.png" class="MarkerClass" id="Marker${i}" onClick="markerChecked(${i})">`);
+                    }
+                </script>
                 
             </div>
 

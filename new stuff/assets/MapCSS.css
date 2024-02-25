@@ -15,6 +15,11 @@ body{
     font-size:500%;
 }
 
+.MapHeader{
+    height:8000px;
+    width:auto;
+}
+
 
 
 /* DO NOT CHANGE SIZE OR I WILL FUCKING CRY */
@@ -165,10 +170,7 @@ body{
 
 #infoText p{
     font-size:50px;
-}
-
-#infoText p{
-    font-size:50px;
+    color:black;
 }
 
 

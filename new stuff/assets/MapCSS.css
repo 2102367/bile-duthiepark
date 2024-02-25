@@ -11,7 +11,10 @@
     height:auto;
 } */
 
+
+
 body{
+    margin:0;
     font-size:500%;
 }
 
@@ -176,12 +179,12 @@ body{
 
 /* cool things */
 
-.content{
+/* .content{
     padding:20px;
-}
+} */
 
-.map-change{
+/* .map-change{
     height: 60px;
-    border-radius: 30px;
-    background-color: aqua;
-}
+    border-radius: 170px;
+    background-color: rgb(255, 255, 255);
+} */

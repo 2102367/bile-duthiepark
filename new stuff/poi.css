@@ -100,7 +100,7 @@ a.active, a:hover{
 }
 
 
-@media (max-width: 428px){
+/* @media (max-width: 428px){
     label.logo{
         font-size: 24px;
         padding-left: 30px;;
@@ -139,4 +139,4 @@ a.active, a:hover{
     }
 
 
-}
+} */

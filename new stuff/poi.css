@@ -6,9 +6,6 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
 
 nav{
     background: #011936;
@@ -25,7 +22,7 @@ label.logo{
     text-align: center;
 }
 
-nav ul{
+/* nav ul{
     float: right;
     margin-left: 20px;
 }
@@ -61,7 +58,7 @@ a.active, a:hover{
 
 #check{
     display: none;
-}
+} */
 
 .main{
     width: 100%;

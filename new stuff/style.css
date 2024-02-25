@@ -5,15 +5,20 @@ body{
 
 /* trail select */
 
-#trail1 img{
+.trail img{
     height:200px;
     width:100%;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
 
-#trail1{
+.trail{
     background-color: aqua;
     height:300px;
     border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.trail h2{
+    padding-left: 20px;
 }

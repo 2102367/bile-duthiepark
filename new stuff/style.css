@@ -151,7 +151,6 @@ ul{
     padding-left: 20px;
 }
 
-=======
 
 /* poi */
 
@@ -195,4 +194,28 @@ ul{
   padding-top: 10px;
 }
 
->>>>>>> 61bddf5c49e831d881b8b1d59cb07725afbb46ce
+/* information */
+
+.content{
+  width: 96%;
+  height: auto;
+  margin-left: 2%;
+}
+
+.content img{
+  width: 96%;
+  height: auto;
+  margin: 2% 1%;
+}
+
+.content h2{
+  line-height: 80px;
+  font-size: 20px;
+  margin: 0 1%;
+  text-align: center;
+}
+
+.content p{
+  font-size: 14px;
+  padding-bottom: 10px;
+}

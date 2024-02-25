@@ -5,14 +5,25 @@
 
         <script src="assets/imageClicks.js"></script>
         <link rel="stylesheet" href="assets/MapCSS.css"></link>
+        <link rel="stylesheet" href="style.css"/>
+
         <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
-        <main>
-            <p>is it</p>
 
+        <header style="height: 350px; width:3600px">
+            <nav>
+                <button class="side-panel-toggle" style="height: 350px; width:300px" type="button">
+                    <span class="material-icons sp-icon-open" style="font-size: 90px;">keyboard_double_arrow_left</span>
+                    <span class="material-icons sp-icon-close" style="font-size:90px;">keyboard_double_arrow_right</span>
+                  </button>
+            </nav>
+            
+        </header>
+
+        <main>
             <div>
                 <div>
                     <p>Normal</p>
@@ -21,12 +32,6 @@
             </div>
             
             <div class="MapContainer">
-                <!-- <img src="assets/trailGuideMap.PNG" style="width:1600px;height:1300px;" usemap="#isit"> -->  
-
-                <!-- <map name="mapInnit">
-                    <area shape="circle" coords="569, 76, 100" href="index.html">
-                </map> -->
-                <!-- <img src="assets/duthie-froge-03.png" class="MarkerClass" id="Marker1" onClick="markerChecked(1)"> -->
                 <script>
                     for (let i = 1; i <= 25; i++) {
                       document.write(`<img src="assets/duthie-froge-03.png" class="MarkerClass" id="Marker${i}" onClick="markerChecked(${i})">`);

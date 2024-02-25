@@ -8,23 +8,25 @@ body{
 
 header{
     width:100%;
-    height: 50px;
+    height: 90px;
     background-color: #000000;
 }
+
+
   .wrapper {
     display: flex;
     height: 100%;
   }
   
   .main {
-    /* flex-grow: 1; */
+    flex-grow: 1;
     /* padding: 20px; */
     overflow-y: auto;
   }
   
   .side-panel-toggle {
-    width: 40px;
-    height: 40px;
+    width: 90px;
+    height: 90px;
     flex-shrink: 0;
     display: grid;
     place-items: center;
@@ -70,30 +72,42 @@ header{
 
 /* index */
 
+.index-body{
+    background-image: url("assets/149979-Duthie-Park-Winter-Gardens.png");
+    background-size: 1600px;
+}
 
+/* 
 #section1{
-    margin: auto;
     height:400px;
     width: 100%;
     background-image: url("assets/149979-Duthie-Park-Winter-Gardens.png");
     background-size: cover;
+} */
+
+
+#section1{
+    padding-top: 70px;
 }
 
+
+
 #section1 button{
-    margin: 0;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    margin: auto;
     height:60px;
     width:300px;
     border-radius: 30px;
+    border-style: none;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+
 }
 
-#section1 h2{
-    padding-top: 140px;
-    color: white;
+
+#section1 h2, p{
+    padding-top: 40px;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 

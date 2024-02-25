@@ -11,7 +11,10 @@
     height:auto;
 } */
 
+
+
 body{
+    margin:0;
     font-size:500%;
 }
 
@@ -170,60 +173,12 @@ body{
 
 /* cool things */
 
-.content{
+/* .content{
     padding:20px;
-}
+} */
 
-.map-change{
+/* .map-change{
     height: 60px;
-    border-radius: 30px;
-    background-color: aqua;
-}
-
-/* popup */
-.popup {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-}
-
-/* The actual popup (appears on top) */
-.popup #popuptext {
-    visibility: hidden;
-    width: 160px;
-    background-color: #fff; /* Change background color to white */
-    color: #555; /* Change text color to dark */
-    text-align: center;
-    border-radius: 6px;
-    padding: 8px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -80px;
-}
-
-/* Popup arrow */
-.popup #popuptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    color:#555;
-    background-color: #fff;
-    
-}
-
-/* Toggle this class when clicking on the popup container (hide and show the popup) */
-.popup .show {
-    visibility: visible;
-    -webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
-}
-
-  
-
-
+    border-radius: 170px;
+    background-color: rgb(255, 255, 255);
+} */

@@ -11,15 +11,15 @@ body{
 }
 
 nav{
-    background: #465362;
-    height: 80px;
+    background: #011936;
+    height: 90px;
     width: 100%;
 }
 
 label.logo{
     color: white;
-    font-size: 20px;
-    line-height: 80px;
+    font-size: 24px;
+    line-height: 90px;
     padding: 0 100px;
     font-weight: bold;
 }
@@ -69,36 +69,42 @@ a.active, a:hover{
 }
 
 .content-row{
-    width: 80%;
-    height: 200px;
-    margin: 2% 10%;
-    background: blue;
+    width: 96%;
+    height: auto;
+    margin: 2%;
+    background: #8FC0A9;
     float: left;
     border-color: aqua;
     border-radius: 9px;
 }
 
 .content-row img{
-    height: 10%;
+    width: 32%;
     height: auto;
     margin: 2%;
 }
 
 .poi-text{
-    width: 60%;
+    width: 55%;
     height: auto;
     float: right;
-    margin-left: 2%;
+    margin: 3%;
 }
 
 .poi-text h2{
+    font-size: 28px;
     text-align: center;
+}
+
+.poi-text p{
+    font-size: 22px;
+    padding-top: 10px;
 }
 
 
 @media (max-width: 428px){
     label.logo{
-        font-size: 20px;
+        font-size: 24px;
         padding-left: 30px;;
     }
 
@@ -133,4 +139,6 @@ a.active, a:hover{
         background: none;
         color: green;
     }
+
+
 }

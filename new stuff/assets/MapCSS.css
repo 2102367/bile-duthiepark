@@ -18,6 +18,12 @@
     background-image: url("trailGuideMap.PNG");
     background-size: 3600px 3300px;
     position: relative; 
+
+    display: flex;
+    flex-direction: column;
+    /* height: 100%; */
+    /* background-size: cover; */
+    background-position: center;
 }
 
 .MarkerClass{
@@ -157,4 +163,17 @@
 
 #infoText p{
     font-size:50px;
+}
+
+
+/* cool things */
+
+.content{
+    padding:20px;
+}
+
+.map-change{
+    height: 60px;
+    border-radius: 30px;
+    background-color: aqua;
 }

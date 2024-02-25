@@ -5,74 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <title>Points of Interest</title>
-    <link rel="stylesheet" href="poi.css"></link>
-    <!-- <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="style.css"></link>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <!-- <script src="gps.js"></script> -->
-    <!-- <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
-    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" /> -->
-    <!-- <script src="imageClicks.js"></script> -->
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
 </head>
 <body>
+
     <header>
         <nav>
-            <!-- <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-                <i class="fas fa-bars"></i>
-            </label> -->
-            <label class="logo">Points of Interest</label>
-            <!-- <ul>
-                <li><a class="active" href="#">Home</a></li>
-                <li><a href="#">Map-Normal</a></li>
-                <li><a href="#">Map-AR</a></li>
-                <li><a href="#">Points of Interest</a></li>
-            </ul> -->
+            <button class="side-panel-toggle" type="button">
+                <span class="material-icons sp-icon-open">keyboard_double_arrow_left</span>
+                <span class="material-icons sp-icon-close">keyboard_double_arrow_right</span>
+            </button>
         </nav>
+        
     </header>
-    <section class="main">
-        <div class="content-row">
-            <img src="images/steam-roller.PNG" alt=" a colourfull steam roller in a park">
-            <div class="poi-text">
-                <h2>Playground Steam Roller</h2> 
-                <p>A colourfull steam roller, which once took passengers, is now a part of a children's play area.</p>
-            </div>
+
+    <div class="wrapper ">
+        <div class="main">
+            <section class="main1">
+                <div class="content-row">
+                    <img src="images/steam-roller.PNG" alt=" a colourfull steam roller in a park">
+                    <div class="poi-text">
+                        <h2>Playground Steam Roller</h2> 
+                        <p>A colourfull steam roller, which once took passengers, is now a part of a children's play area.</p>
+                    </div>
+                </div>
+                <div class="content-row">
+                    <img src="images/GH-cross.PNG" alt=" a granite cross monument">
+                    <div class="poi-text">
+                        <h2>Gordon Highlander Memorial</h2> 
+                        <p>A Celtic cross made from grey granite from 1882, commemorating the Gordon Highlanders.</p>
+                    </div>
+                </div>
+                <div class="content-row">
+                    <img src="images/hygeia.PNG" alt=" a grey granite statue of hygeia">
+                    <div class="poi-text">
+                        <h2>Statue of Hygeia</h2> 
+                        <p>A monument of Hygeia, Greek goddess of health, standing on top of a grey granite column.</p>
+                    </div>
+                </div>
+                <div class="content-row">
+                    <img src="images/boat-pond.PNG" alt=" an old photograph of a modle yacht club pond in duthie park">
+                    <div class="poi-text">
+                        <h2>Boat Pond</h2> 
+                        <p>Built by the Model Yacht Club in 1907, it has been continuously used in international model yacht races.</p>
+                    </div>
+                </div>
+                <div class="content-row">
+                    <img src="images/mcpuddock.PNG" alt="the beast of duthie park">
+                    <div class="poi-text">
+                        <h2>McPuddock</h2> 
+                        <p>The mechanical diving frog in the Fern House pond is a constant source of delight for all ages.</p>
+                    </div>
+                </div>
+                <div class="content-row">
+                    <img src="images/david-welch-garden.PNG" alt=" the interior gardens of duthie park">
+                    <div class="poi-text">
+                        <h2>David Welch Gardens</h2> 
+                        <p>One of Europe's largest indoor botanical gardens containing many rare and exotic plants on show from all around the world.</p>
+                    </div>
+                </div>
+            </section>
         </div>
-        <div class="content-row">
-            <img src="images/GH-cross.PNG" alt=" a granite cross monument">
-            <div class="poi-text">
-                <h2>Gordon Highlander Memorial</h2> 
-                <p>A Celtic cross made from grey granite from 1882, commemorating the Gordon Highlanders.</p>
-            </div>
+
+        <div class="side-panel">
+            <ul><a href="index.html">Home</a></ul>
+            <ul><a href="map.html">Map</a></ul>
+            <ul><a href="points-o-interest.html">Points of Interest</a></ul>
+            <ul><a href="information.html">More</a></ul>
         </div>
-        <div class="content-row">
-            <img src="images/hygeia.PNG" alt=" a grey granite statue of hygeia">
-            <div class="poi-text">
-                <h2>Statue of Hygeia</h2> 
-                <p>A monument of Hygeia, Greek goddess of health, standing on top of a grey granite column.</p>
-            </div>
-        </div>
-        <div class="content-row">
-            <img src="images/boat-pond.PNG" alt=" an old photograph of a modle yacht club pond in duthie park">
-            <div class="poi-text">
-                <h2>Boat Pond</h2> 
-                <p>Built by the Model Yacht Club in 1907, it has been continuously used in international model yacht races.</p>
-            </div>
-        </div>
-        <div class="content-row">
-            <img src="images/mcpuddock.PNG" alt="the beast of duthie park">
-            <div class="poi-text">
-                <h2>McPuddock</h2> 
-                <p>The mechanical diving frog in the Fern House pond is a constant source of delight for all ages.</p>
-            </div>
-        </div>
-        <div class="content-row">
-            <img src="images/david-welch-garden.PNG" alt=" the interior gardens of duthie park">
-            <div class="poi-text">
-                <h2>David Welch Gardens</h2> 
-                <p>One of Europe's largest indoor botanical gardens containing many rare and exotic plants on show from all around the world.</p>
-            </div>
-        </div>
-    </section>
+
+    </div>
+
+
+
+
+    <script src="app.js"></script> 
+
+
+
 </body>
 </html>

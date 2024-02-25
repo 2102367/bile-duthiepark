@@ -1,5 +1,35 @@
-.MapContainer{
+/* .MapContainer{
     width:1600px;
     height:1300px;
-    
+    background-image: url("trailGuideMap.PNG");
+    background-size: 1600px 1300px;
+}
+
+#Marker1{
+    position: 570px 76px;
+    width:5%;
+    height:auto;
+} */
+
+.MapContainer {
+    width: 1600px;
+    height: 1300px;
+    background-image: url("trailGuideMap.PNG");
+    background-size: 1600px 1300px;
+    position: relative; 
+}
+
+.MarkerClass{
+    position: absolute;
+    width: 5%; 
+    height: auto;
+}
+
+#Marker1 {
+    left: 850px; 
+    top: 76px; 
+}
+
+#infoText p{
+    font-size:800px;
 }

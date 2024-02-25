@@ -1,5 +1,19 @@
+body{
+    font-family: "Montserrat";
+}
+
+
 /* trail select */
 
+#trail1 img{
+    height:200px;
+    width:100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
 #trail1{
+    background-color: aqua;
     height:300px;
+    border-radius: 30px;
 }

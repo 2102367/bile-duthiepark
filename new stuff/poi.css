@@ -25,7 +25,7 @@ label.logo{
     text-align: center;
 }
 
-nav ul{
+/* nav ul{
     float: right;
     margin-left: 20px;
 }
@@ -61,7 +61,7 @@ a.active, a:hover{
 
 #check{
     display: none;
-}
+} */
 
 .main{
     width: 100%;
@@ -103,7 +103,7 @@ a.active, a:hover{
 }
 
 
-@media (max-width: 428px){
+/* @media (max-width: 428px){
     label.logo{
         font-size: 24px;
         padding-left: 30px;;
@@ -142,4 +142,4 @@ a.active, a:hover{
     }
 
 
-}
+} */

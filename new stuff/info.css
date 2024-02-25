@@ -37,6 +37,12 @@ label.logo{
     margin-left: 2%;
 }
 
+.content img{
+    width: 96%;
+    height: auto;
+    margin: 2% 1%;
+}
+
 .content h2{
     line-height: 80px;
     font-size: 20px;

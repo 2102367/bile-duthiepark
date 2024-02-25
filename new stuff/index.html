@@ -6,27 +6,44 @@
 
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 
-    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
     
     <title>Duthie Park - Home</title>
 </head>
-<body>
+<body class="index-body">
 
     <header>
-        <nav></nav>
+        <nav>
+            <button class="side-panel-toggle" type="button">
+                <span class="material-icons sp-icon-open">keyboard_double_arrow_left</span>
+                <span class="material-icons sp-icon-close">keyboard_double_arrow_right</span>
+              </button>
+        </nav>
+        
     </header>
 
-    <div id="section1">
-        <h2>Welcome to Duthie Park!</h2>
-        <button><a>Start your journey </a> </button>
-         <!-- <img src="assets\149979-Duthie-Park-Winter-Gardens.jpg"> -->
-    </div>
+    <div class="wrapper ">
+        <div class="main">
+            <div id="section1">
+                <h2>Welcome to Duthie Park!</h2>
+                <p>Duthie Park is loved by locals and visitors due to its wonderfully restored Victorian features such as the band stand, fountains, and boating ponds. The park also has an astro turf area for ball games and two other play areas; one for younger children and another for the more adventurous child which has been voted best play space in Scotland. The Park Café is also very popular with visitors.</p>
+                <button><a>Start your journey</a></button>
+            </div>
+        </div>
 
-    <div id="section2">
-        <p>Duthie Park opened in 1883 after it was gifted to the city by Miss Elizabeth Crombie Duthie in 1880 for the ‘wellbeing and recreation of Aberdeen inhabitants'./p>
-        <p>learn more</p>
+        <div class="side-panel">
+            <ul><a href="index.html">Home</a></ul>
+            <ul><a href="map.html">Map</a></ul>
+            <ul><a href="points-o-interest.html">Points of Interest</a></ul>
+            <ul><a>More</a></ul>
+        </div>
 
-    </div>
+
+
+
+
     
     <script src="app.js"></script> 
 </body>

@@ -11,25 +11,150 @@
     height:auto;
 } */
 
+/* DO NOT SIZE OR I WILL FUCKING CRY */
 .MapContainer {
-    width: 1600px;
-    height: 1300px;
+    width: 3600px;
+    height: 3300px;
     background-image: url("trailGuideMap.PNG");
-    background-size: 1600px 1300px;
+    background-size: 3600px 3300px;
     position: relative; 
 }
 
 .MarkerClass{
     position: absolute;
-    width: 5%; 
+    width: 8%; 
     height: auto;
 }
 
 #Marker1 {
-    left: 850px; 
-    top: 76px; 
+    left: 1866px; 
+    top: 139px; 
+}
+
+#Marker2 {
+    left: 1801px; 
+    top: 293px; 
+}
+
+#Marker3 {
+    left: 1703px; 
+    top: 593px; 
+}
+
+#Marker4 {
+    left: 2086px; 
+    top: 831px; 
+}
+
+#Marker5 {
+    left: 2302px; 
+    top: 1265px; 
+}
+
+#Marker6 {
+    left: 2302px; 
+    top: 1465px; 
+}
+
+#Marker7 {
+    left: 2235px; 
+    top: 1616px; 
+}
+
+#Marker8 {
+    left: 2301px; 
+    top: 1853px; 
+}
+
+#Marker9 {
+    left: 2205px; 
+    top: 2353px; 
+}
+
+#Marker10 {
+    left: 1806px;  
+    top: 2611px; 
+}
+
+#Marker11 {
+    left: 1424px;  
+    top: 2683px; 
+}
+
+#Marker12 {
+    left: 1519px;  
+    top: 2415px; 
+}
+
+#Marker13 {
+    left: 361px;  
+    top: 2533px; 
+}
+
+#Marker14 {
+    left: 1016px;  
+    top: 2419px; 
+}
+
+#Marker15 {
+    left: 851px;  
+    top: 2344px; 
+}
+
+#Marker16 {
+    left: 1040px;  
+    top: 2098px; 
+}
+
+#Marker17 {
+    left: 1369px;  
+    top: 1585px; 
+}
+
+#Marker18 {
+    left: 576px;  
+    top: 1419px; 
+}
+
+#Marker19 {
+    left: 781px;  
+    top: 1003px; 
+}
+
+#Marker20 {
+    left: 472px;  
+    top: 857px; 
+}
+
+#Marker21 {
+    left: 755px;  
+    top: 413px; 
+}
+
+#Marker22 {
+    left: 1149px;  
+    top: 1009px; 
+}
+
+#Marker23 {
+    left: 1512px;  
+    top: 818px; 
+}
+
+#Marker24 {
+    left: 1291px;  
+    top: 639px; 
+}
+
+#Marker25 {
+    left: 2903px;  
+    top: 682px; 
 }
 
 #infoText p{
-    font-size:800px;
+    font-size:50px;
+}
+
+#infoText p{
+    font-size:50px;
 }
